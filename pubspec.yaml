@@ -1,0 +1,40 @@
+name: zenithfit
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  device_preview: ^1.1.0
+  go_router: ^14.1.0
+  drift: ^2.18.0
+  sqlite3_flutter_libs: ^0.5.20
+  path_provider: ^2.1.3
+  path: ^1.9.0
+  fl_chart: ^1.1.1
+  flutter_local_notifications: ^19.5.0
+  timezone: ^0.10.1
+  table_calendar: ^3.1.0
+  intl: 0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  drift_dev: ^2.18.0
+  build_runner: ^2.4.11
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/Gif_PAPB_Man/
+    - assets/Gif_PAPB_Woman/
